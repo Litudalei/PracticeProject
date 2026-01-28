@@ -6,6 +6,7 @@ public class InsertOperation {
     {
     Class.forName("com.mysql.cj.jdbc.Driver");
     System.out.println("driver is loaded");
+    System.out.println("connecting to database");
 
     }
 }
